@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="27.804">
+    <testcase classname="Login" name="Login with  credentials DDT" time="27.355">
+        <system-out><![CDATA[Given User Launch Chrome Browser............................................passed
+When User open URL "https://admin-demo.nopcommerce.com/login?ReturnUrl=%2Fadmin%2F".passed
+And User enters Email as "admin@yourstore.com" and Password as "admin"......passed
+And Click on Remember Me check box..........................................passed
+And Click on Login button...................................................passed
+Then Page title should be "Dashboard / nopCommerce administration"..........passed
+And LogOut..................................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
